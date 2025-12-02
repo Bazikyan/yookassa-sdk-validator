@@ -111,7 +111,7 @@ try {
 
 try {
     // Валидатор выбросит исключение
-    $paymentItem->setTitle('titl');
+    $paymentItem->setTitle('tilte');
 } catch (Exception $exception) {
     echo 'fail!';
     var_dump($exception->getMessage());

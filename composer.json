@@ -1,0 +1,31 @@
+{
+  "name": "yoomoney/yookassa-sdk-validator",
+  "description": "This is a developer tool for validating with YooMoney.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "YooMoney",
+      "email": "cms@yoomoney.ru"
+    }
+  ],
+  "version": "1.0.3",
+  "require": {
+    "php": ">=8.0.0",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "ext-xml": "*",
+    "phpunit/phpunit": "^9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "YooKassa\\Validator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\YooKassa\\Validator\\": "tests/"
+    }
+  }
+}
